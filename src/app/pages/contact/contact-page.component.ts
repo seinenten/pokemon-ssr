@@ -2,11 +2,11 @@ import { ChangeDetectionStrategy, Component, inject, OnInit } from '@angular/cor
 import { Meta, Title } from '@angular/platform-browser';
 
 @Component({
-  standalone: true,
-  selector: 'page-contact',
-  imports: [],
-  templateUrl: './contact-page.component.html',
-  changeDetection: ChangeDetectionStrategy.OnPush,
+    selector: 'page-contact',
+    imports: [],
+    standalone: true,
+    templateUrl: './contact-page.component.html',
+    changeDetection: ChangeDetectionStrategy.OnPush
 })
 export default class PricingPageComponent implements OnInit {
 

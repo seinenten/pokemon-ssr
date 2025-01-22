@@ -10,11 +10,11 @@ import { map, tap } from 'rxjs';
 import { Title } from '@angular/platform-browser';
 
 @Component({
-  selector: 'pokemons-page',
-  standalone: true,
-  imports: [PokemonListComponent, PokemonListSkeletonComponent],
-  templateUrl: './pokemons-page.component.html',
-  changeDetection: ChangeDetectionStrategy.OnPush,
+    selector: 'pokemons-page',
+    imports: [PokemonListComponent, PokemonListSkeletonComponent],
+    standalone: true,
+    templateUrl: './pokemons-page.component.html',
+    changeDetection: ChangeDetectionStrategy.OnPush
 })
 export default class PokemonsPageComponent implements OnInit{
 

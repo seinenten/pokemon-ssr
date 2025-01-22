@@ -3,11 +3,11 @@ import { ChangeDetectionStrategy, Component, inject, OnInit, PLATFORM_ID } from 
 import { Title, Meta } from '@angular/platform-browser';
 
 @Component({
-  selector: 'page-pricing',
-  standalone: true,
-  imports: [],
-  templateUrl: './pricing-page.component.html',
-  changeDetection: ChangeDetectionStrategy.OnPush,
+    selector: 'page-pricing',
+    imports: [],
+    standalone: true,
+    templateUrl: './pricing-page.component.html',
+    changeDetection: ChangeDetectionStrategy.OnPush
 })
 export default class PricingPageComponent implements OnInit {
 
