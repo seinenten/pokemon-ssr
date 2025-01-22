@@ -1,0 +1,21 @@
+@if( pokemon() === null) {
+  <div class="flex justify-center">
+    <h1 class="text-4xl font-bold">Loading...</h1>
+  </div>
+} @else {
+
+  <section class="flex flex-col justify-center">
+    <div class="flex justify-center">
+      <h1 class="text-4xl font-bold capitalize my-5">{{ pokemon()?.name }}</h1>
+    </div>
+  </section>
+
+  <section class="flex flex-col justify-center items-center w-full">
+    <img [src]="pokemon()!.sprites?.other?.['official-artwork']?.front_default"
+      [alt]="pokemon()!.name"
+      class="w-64 m-64"
+      width="256px"
+      height="256px">
+  </section>
+
+}
