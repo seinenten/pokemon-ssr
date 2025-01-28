@@ -3,5 +3,6 @@
         "angular-*": {
             "externalTemplate": true
         }
-    }
+    },
+    "js-auto-backticks.enableRevert": true
 }
